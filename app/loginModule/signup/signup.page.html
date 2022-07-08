@@ -1,0 +1,60 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar style="--background: #E3EFF9;">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+    <ion-text><h1 style="margin: 5vh; text-align:center"> Sign Up</h1></ion-text>
+
+  <div  style="margin: 1vh; text-align:center">
+    <ion-text>
+      Create Your account by filling up the form
+    </ion-text>
+  </div>
+
+  
+
+
+<ion-item style="margin: 20px;">
+  <ion-icon name="person-outline" style="margin: 15px;"></ion-icon>
+  <ion-input placeholder="Enter your name" type="text"></ion-input>
+</ion-item>
+
+<ion-item style="margin: 20px;">
+  <ion-icon name="call-outline"  style="margin: 15px;"></ion-icon>
+  <ion-input placeholder="Phone number" type="text"></ion-input>
+</ion-item>
+
+<ion-item style="margin: 20px;">
+  <ion-icon name="mail-outline"  style="margin: 15px;"></ion-icon>
+  <ion-input placeholder="Enter your email" type="text"></ion-input>
+</ion-item>
+
+<div>
+  <section style="text-align: center; margin-top: 10vh; ">
+    <ion-button Color="primary" size="medium" (click)="goAnOtherPage2()">Sign Up</ion-button>
+  </section>
+</div>
+<div style="margin: 60px;"></div>
+
+<div style="text-align: center;">
+  <ion-text>Sign Up with</ion-text>
+</div>
+<div style="margin: 15px;"></div>
+
+<div style="display:flex; justify-content: center;">
+  <section>
+    <ion-button style=" --border-radius: 15%;"  size="medium" ><ion-icon name="logo-google"></ion-icon></ion-button>
+  </section>
+  <div style="margin: 3%;"></div>
+  <section>
+    <ion-button style=" --border-radius: 15%;" Color="primary" size="medium" ><ion-icon name="logo-facebook"></ion-icon></ion-button>
+  </section>
+</div>
+
+
+</ion-content>

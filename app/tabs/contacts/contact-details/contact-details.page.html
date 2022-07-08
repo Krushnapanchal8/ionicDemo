@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Contact Details</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>A</ion-list-header>
+    <ion-item *ngFor="let item1 of Contacts1">
+      <ion-icon name="person" slot="start"></ion-icon>
+      <ion-label>{{item1}}</ion-label>
+    </ion-item>
+    
+    <ion-list-header>B</ion-list-header>
+
+    <ion-item *ngFor="let item2 of Contacts2">
+      <ion-icon name="person" slot="start"></ion-icon>
+      <ion-label>{{item2}}</ion-label>
+    </ion-item>
+
+    <ion-list-header>D</ion-list-header>
+
+    <ion-item *ngFor="let item3 of Contacts3">
+      <ion-icon name="person" slot="start"></ion-icon>
+      <ion-label>{{item3}}</ion-label>
+    </ion-item>
+
+    <ion-list-header>G</ion-list-header>
+
+    <ion-item *ngFor="let item4 of Contacts4">
+      <ion-icon name="person" slot="start"></ion-icon>
+      <ion-label>{{item4}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
